@@ -27,6 +27,7 @@ header img {
     width: 151px;
     height: 40px;
     margin-right: 32px;
+    cursor: pointer;
     /* margin: 18px auto; */
 }
 
@@ -167,4 +168,98 @@ header img {
 
 .partners img:last-child {
   margin-right: 0;
+}
+
+/* team */
+
+.team {
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.team h1 {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  padding-top: 80px;
+  margin: 0;
+  color: #000000;
+}
+
+.team p {
+  margin: 0;
+  padding-top: 24px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #532C59;
+}
+
+.team__card-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.team__card {
+  width: 301px;
+  height: 156px;
+  text-align: center;
+  margin: 0;
+  padding-right: 32px;
+}
+
+
+.team__card img {
+  transition: all 0.3s ease-in-out;
+}
+
+.team__card img:hover {
+  transform: scale(1.25);
+}        
+
+.team__card h2 {
+  margin: 0;
+  padding-top: 12px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+
+.team__card b {
+  margin: 0;
+  padding-top: 12px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #532C59;
+}
+
+
+
+
+
+
+
+
+/* Collection */
+
+.collection h1 {
+  padding-top: 80px;
 }
