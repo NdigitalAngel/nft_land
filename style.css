@@ -289,12 +289,12 @@ header img {
 }
 
 .collection__card-wrapper {
-  margin: 0 auto;
-  padding-top: 64px;
-  max-width: 1300px;
   display: flex;
-  justify-content: space-around;
-  gap: 32px;
+  margin: 64px auto;
+  max-width: 1300px;
+  flex-wrap: wrap;
+  row-gap: 32px;
+  column-gap: 32px;
 }
 
 .collection__card {
@@ -321,4 +321,90 @@ header img {
   line-height: 20px;
   text-align: center;
   color: #532C59;
+}
+
+/* Provide */
+
+.provide {
+  max-width: 1300px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.provide h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+  }
+
+.provide p {
+  text-align: center;
+  margin: 0;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #532C59;
+  padding-bottom: 60px;
+}
+
+.provide__card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+}
+.provide__card-wrapper > :last-child { padding-right: 0 !important; }
+
+.provide__card {
+  max-width: 301px;
+  max-height: 200px;
+  text-align: center;
+  padding-right: 32px;
+}
+
+.provide__card h3 {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #000000;
+  margin: 12px 0;
+}
+
+.provide__card p {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #532C59;
+}
+
+
+/* comments */
+
+.comments {
+  padding-top: 80px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.comments h2 {
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 80px;
+  margin-top: 0;
 }
